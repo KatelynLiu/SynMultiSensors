@@ -1,0 +1,8 @@
+prefix=/home/ly/visual_compass/DataSyn_ws/install
+
+Name: datasynacq
+Description: Description of datasynacq
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ly/visual_compass/DataSyn_ws/install/lib 
+Requires: 

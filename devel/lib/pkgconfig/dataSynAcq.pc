@@ -1,0 +1,8 @@
+prefix=/home/ly/visual_compass/DataSyn_ws/devel
+
+Name: dataSynAcq
+Description: Description of dataSynAcq
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ly/visual_compass/DataSyn_ws/devel/lib 
+Requires: 
