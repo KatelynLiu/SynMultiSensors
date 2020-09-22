@@ -477,6 +477,58 @@ datasynacq_node/fast:
 	$(MAKE) -f dataSynAcq/CMakeFiles/datasynacq_node.dir/build.make dataSynAcq/CMakeFiles/datasynacq_node.dir/build
 .PHONY : datasynacq_node/fast
 
+#=============================================================================
+# Target rules for targets named koreaextract_node
+
+# Build rule for target.
+koreaextract_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 koreaextract_node
+.PHONY : koreaextract_node
+
+# fast build rule for target.
+koreaextract_node/fast:
+	$(MAKE) -f koreaextract/CMakeFiles/koreaextract_node.dir/build.make koreaextract/CMakeFiles/koreaextract_node.dir/build
+.PHONY : koreaextract_node/fast
+
+#=============================================================================
+# Target rules for targets named koreaextract
+
+# Build rule for target.
+koreaextract: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 koreaextract
+.PHONY : koreaextract
+
+# fast build rule for target.
+koreaextract/fast:
+	$(MAKE) -f koreaextract/CMakeFiles/koreaextract.dir/build.make koreaextract/CMakeFiles/koreaextract.dir/build
+.PHONY : koreaextract/fast
+
+#=============================================================================
+# Target rules for targets named synrgbwir_node
+
+# Build rule for target.
+synrgbwir_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 synrgbwir_node
+.PHONY : synrgbwir_node
+
+# fast build rule for target.
+synrgbwir_node/fast:
+	$(MAKE) -f synrgbwir/CMakeFiles/synrgbwir_node.dir/build.make synrgbwir/CMakeFiles/synrgbwir_node.dir/build
+.PHONY : synrgbwir_node/fast
+
+#=============================================================================
+# Target rules for targets named synrgbwir
+
+# Build rule for target.
+synrgbwir: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 synrgbwir
+.PHONY : synrgbwir
+
+# fast build rule for target.
+synrgbwir/fast:
+	$(MAKE) -f synrgbwir/CMakeFiles/synrgbwir.dir/build.make synrgbwir/CMakeFiles/synrgbwir.dir/build
+.PHONY : synrgbwir/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -514,6 +566,10 @@ help:
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... datasynacq_node"
+	@echo "... koreaextract_node"
+	@echo "... koreaextract"
+	@echo "... synrgbwir_node"
+	@echo "... synrgbwir"
 .PHONY : help
 
 

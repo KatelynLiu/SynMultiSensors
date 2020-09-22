@@ -661,21 +661,21 @@ clean: dataSynAcq/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 # Target rules for target dataSynAcq/CMakeFiles/datasynacq.dir
 
 # All Build rule for target.
-dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/roscpp_generate_messages_py.dir/all
-dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/std_msgs_generate_messages_py.dir/all
 dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/roscpp_generate_messages_py.dir/all
+dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+dataSynAcq/CMakeFiles/datasynacq.dir/all: dataSynAcq/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 	$(MAKE) -f dataSynAcq/CMakeFiles/datasynacq.dir/build.make dataSynAcq/CMakeFiles/datasynacq.dir/depend
 	$(MAKE) -f dataSynAcq/CMakeFiles/datasynacq.dir/build.make dataSynAcq/CMakeFiles/datasynacq.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ly/visual_compass/DataSyn_ws/build/CMakeFiles --progress-num=1,2 "Built target datasynacq"
@@ -902,6 +902,222 @@ dataSynAcq/CMakeFiles/datasynacq_node.dir/clean:
 
 # clean rule for target.
 clean: dataSynAcq/CMakeFiles/datasynacq_node.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory koreaextract
+
+# Convenience name for "all" pass in the directory.
+koreaextract/all: koreaextract/CMakeFiles/koreaextract_node.dir/all
+koreaextract/all: koreaextract/CMakeFiles/koreaextract.dir/all
+
+.PHONY : koreaextract/all
+
+# Convenience name for "clean" pass in the directory.
+koreaextract/clean: koreaextract/CMakeFiles/koreaextract_node.dir/clean
+koreaextract/clean: koreaextract/CMakeFiles/koreaextract.dir/clean
+
+.PHONY : koreaextract/clean
+
+# Convenience name for "preinstall" pass in the directory.
+koreaextract/preinstall:
+
+.PHONY : koreaextract/preinstall
+
+#=============================================================================
+# Target rules for target koreaextract/CMakeFiles/koreaextract_node.dir
+
+# All Build rule for target.
+koreaextract/CMakeFiles/koreaextract_node.dir/all: koreaextract/CMakeFiles/koreaextract.dir/all
+	$(MAKE) -f koreaextract/CMakeFiles/koreaextract_node.dir/build.make koreaextract/CMakeFiles/koreaextract_node.dir/depend
+	$(MAKE) -f koreaextract/CMakeFiles/koreaextract_node.dir/build.make koreaextract/CMakeFiles/koreaextract_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ly/visual_compass/DataSyn_ws/build/CMakeFiles --progress-num=11,12 "Built target koreaextract_node"
+.PHONY : koreaextract/CMakeFiles/koreaextract_node.dir/all
+
+# Include target in all.
+all: koreaextract/CMakeFiles/koreaextract_node.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+koreaextract/CMakeFiles/koreaextract_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ly/visual_compass/DataSyn_ws/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 koreaextract/CMakeFiles/koreaextract_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ly/visual_compass/DataSyn_ws/build/CMakeFiles 0
+.PHONY : koreaextract/CMakeFiles/koreaextract_node.dir/rule
+
+# Convenience name for target.
+koreaextract_node: koreaextract/CMakeFiles/koreaextract_node.dir/rule
+
+.PHONY : koreaextract_node
+
+# clean rule for target.
+koreaextract/CMakeFiles/koreaextract_node.dir/clean:
+	$(MAKE) -f koreaextract/CMakeFiles/koreaextract_node.dir/build.make koreaextract/CMakeFiles/koreaextract_node.dir/clean
+.PHONY : koreaextract/CMakeFiles/koreaextract_node.dir/clean
+
+# clean rule for target.
+clean: koreaextract/CMakeFiles/koreaextract_node.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target koreaextract/CMakeFiles/koreaextract.dir
+
+# All Build rule for target.
+koreaextract/CMakeFiles/koreaextract.dir/all: dataSynAcq/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+koreaextract/CMakeFiles/koreaextract.dir/all: dataSynAcq/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+koreaextract/CMakeFiles/koreaextract.dir/all: dataSynAcq/CMakeFiles/std_msgs_generate_messages_py.dir/all
+koreaextract/CMakeFiles/koreaextract.dir/all: dataSynAcq/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+koreaextract/CMakeFiles/koreaextract.dir/all: dataSynAcq/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+koreaextract/CMakeFiles/koreaextract.dir/all: dataSynAcq/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+koreaextract/CMakeFiles/koreaextract.dir/all: dataSynAcq/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+koreaextract/CMakeFiles/koreaextract.dir/all: dataSynAcq/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+koreaextract/CMakeFiles/koreaextract.dir/all: dataSynAcq/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+koreaextract/CMakeFiles/koreaextract.dir/all: dataSynAcq/CMakeFiles/roscpp_generate_messages_py.dir/all
+koreaextract/CMakeFiles/koreaextract.dir/all: dataSynAcq/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+koreaextract/CMakeFiles/koreaextract.dir/all: dataSynAcq/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+koreaextract/CMakeFiles/koreaextract.dir/all: dataSynAcq/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+koreaextract/CMakeFiles/koreaextract.dir/all: dataSynAcq/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+koreaextract/CMakeFiles/koreaextract.dir/all: dataSynAcq/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+	$(MAKE) -f koreaextract/CMakeFiles/koreaextract.dir/build.make koreaextract/CMakeFiles/koreaextract.dir/depend
+	$(MAKE) -f koreaextract/CMakeFiles/koreaextract.dir/build.make koreaextract/CMakeFiles/koreaextract.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ly/visual_compass/DataSyn_ws/build/CMakeFiles --progress-num=9,10 "Built target koreaextract"
+.PHONY : koreaextract/CMakeFiles/koreaextract.dir/all
+
+# Include target in all.
+all: koreaextract/CMakeFiles/koreaextract.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+koreaextract/CMakeFiles/koreaextract.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ly/visual_compass/DataSyn_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 koreaextract/CMakeFiles/koreaextract.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ly/visual_compass/DataSyn_ws/build/CMakeFiles 0
+.PHONY : koreaextract/CMakeFiles/koreaextract.dir/rule
+
+# Convenience name for target.
+koreaextract: koreaextract/CMakeFiles/koreaextract.dir/rule
+
+.PHONY : koreaextract
+
+# clean rule for target.
+koreaextract/CMakeFiles/koreaextract.dir/clean:
+	$(MAKE) -f koreaextract/CMakeFiles/koreaextract.dir/build.make koreaextract/CMakeFiles/koreaextract.dir/clean
+.PHONY : koreaextract/CMakeFiles/koreaextract.dir/clean
+
+# clean rule for target.
+clean: koreaextract/CMakeFiles/koreaextract.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory synrgbwir
+
+# Convenience name for "all" pass in the directory.
+synrgbwir/all: synrgbwir/CMakeFiles/synrgbwir_node.dir/all
+synrgbwir/all: synrgbwir/CMakeFiles/synrgbwir.dir/all
+
+.PHONY : synrgbwir/all
+
+# Convenience name for "clean" pass in the directory.
+synrgbwir/clean: synrgbwir/CMakeFiles/synrgbwir_node.dir/clean
+synrgbwir/clean: synrgbwir/CMakeFiles/synrgbwir.dir/clean
+
+.PHONY : synrgbwir/clean
+
+# Convenience name for "preinstall" pass in the directory.
+synrgbwir/preinstall:
+
+.PHONY : synrgbwir/preinstall
+
+#=============================================================================
+# Target rules for target synrgbwir/CMakeFiles/synrgbwir_node.dir
+
+# All Build rule for target.
+synrgbwir/CMakeFiles/synrgbwir_node.dir/all: synrgbwir/CMakeFiles/synrgbwir.dir/all
+	$(MAKE) -f synrgbwir/CMakeFiles/synrgbwir_node.dir/build.make synrgbwir/CMakeFiles/synrgbwir_node.dir/depend
+	$(MAKE) -f synrgbwir/CMakeFiles/synrgbwir_node.dir/build.make synrgbwir/CMakeFiles/synrgbwir_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ly/visual_compass/DataSyn_ws/build/CMakeFiles --progress-num=15,16 "Built target synrgbwir_node"
+.PHONY : synrgbwir/CMakeFiles/synrgbwir_node.dir/all
+
+# Include target in all.
+all: synrgbwir/CMakeFiles/synrgbwir_node.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+synrgbwir/CMakeFiles/synrgbwir_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ly/visual_compass/DataSyn_ws/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 synrgbwir/CMakeFiles/synrgbwir_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ly/visual_compass/DataSyn_ws/build/CMakeFiles 0
+.PHONY : synrgbwir/CMakeFiles/synrgbwir_node.dir/rule
+
+# Convenience name for target.
+synrgbwir_node: synrgbwir/CMakeFiles/synrgbwir_node.dir/rule
+
+.PHONY : synrgbwir_node
+
+# clean rule for target.
+synrgbwir/CMakeFiles/synrgbwir_node.dir/clean:
+	$(MAKE) -f synrgbwir/CMakeFiles/synrgbwir_node.dir/build.make synrgbwir/CMakeFiles/synrgbwir_node.dir/clean
+.PHONY : synrgbwir/CMakeFiles/synrgbwir_node.dir/clean
+
+# clean rule for target.
+clean: synrgbwir/CMakeFiles/synrgbwir_node.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target synrgbwir/CMakeFiles/synrgbwir.dir
+
+# All Build rule for target.
+synrgbwir/CMakeFiles/synrgbwir.dir/all: dataSynAcq/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+synrgbwir/CMakeFiles/synrgbwir.dir/all: dataSynAcq/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+synrgbwir/CMakeFiles/synrgbwir.dir/all: dataSynAcq/CMakeFiles/std_msgs_generate_messages_py.dir/all
+synrgbwir/CMakeFiles/synrgbwir.dir/all: dataSynAcq/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+synrgbwir/CMakeFiles/synrgbwir.dir/all: dataSynAcq/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+synrgbwir/CMakeFiles/synrgbwir.dir/all: dataSynAcq/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+synrgbwir/CMakeFiles/synrgbwir.dir/all: dataSynAcq/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+synrgbwir/CMakeFiles/synrgbwir.dir/all: dataSynAcq/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+synrgbwir/CMakeFiles/synrgbwir.dir/all: dataSynAcq/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+synrgbwir/CMakeFiles/synrgbwir.dir/all: dataSynAcq/CMakeFiles/roscpp_generate_messages_py.dir/all
+synrgbwir/CMakeFiles/synrgbwir.dir/all: dataSynAcq/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+synrgbwir/CMakeFiles/synrgbwir.dir/all: dataSynAcq/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+synrgbwir/CMakeFiles/synrgbwir.dir/all: dataSynAcq/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+synrgbwir/CMakeFiles/synrgbwir.dir/all: dataSynAcq/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+synrgbwir/CMakeFiles/synrgbwir.dir/all: dataSynAcq/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+	$(MAKE) -f synrgbwir/CMakeFiles/synrgbwir.dir/build.make synrgbwir/CMakeFiles/synrgbwir.dir/depend
+	$(MAKE) -f synrgbwir/CMakeFiles/synrgbwir.dir/build.make synrgbwir/CMakeFiles/synrgbwir.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ly/visual_compass/DataSyn_ws/build/CMakeFiles --progress-num=13,14 "Built target synrgbwir"
+.PHONY : synrgbwir/CMakeFiles/synrgbwir.dir/all
+
+# Include target in all.
+all: synrgbwir/CMakeFiles/synrgbwir.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+synrgbwir/CMakeFiles/synrgbwir.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ly/visual_compass/DataSyn_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 synrgbwir/CMakeFiles/synrgbwir.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ly/visual_compass/DataSyn_ws/build/CMakeFiles 0
+.PHONY : synrgbwir/CMakeFiles/synrgbwir.dir/rule
+
+# Convenience name for target.
+synrgbwir: synrgbwir/CMakeFiles/synrgbwir.dir/rule
+
+.PHONY : synrgbwir
+
+# clean rule for target.
+synrgbwir/CMakeFiles/synrgbwir.dir/clean:
+	$(MAKE) -f synrgbwir/CMakeFiles/synrgbwir.dir/build.make synrgbwir/CMakeFiles/synrgbwir.dir/clean
+.PHONY : synrgbwir/CMakeFiles/synrgbwir.dir/clean
+
+# clean rule for target.
+clean: synrgbwir/CMakeFiles/synrgbwir.dir/clean
 
 .PHONY : clean
 

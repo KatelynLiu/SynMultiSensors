@@ -1,2 +1,2 @@
-dataSynAcq
+dataSynAcq:koreaextract:synrgbwir
 -DCATKIN_DEVEL_PREFIX=/home/ly/visual_compass/DataSyn_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ly/visual_compass/DataSyn_ws/install -G Unix Makefiles

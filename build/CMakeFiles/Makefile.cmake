@@ -15,9 +15,17 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin_generated/order_packages.cmake"
   "dataSynAcq/catkin_generated/ordered_paths.cmake"
   "dataSynAcq/catkin_generated/package.cmake"
+  "koreaextract/catkin_generated/ordered_paths.cmake"
+  "koreaextract/catkin_generated/package.cmake"
+  "synrgbwir/catkin_generated/ordered_paths.cmake"
+  "synrgbwir/catkin_generated/package.cmake"
   "/home/ly/visual_compass/DataSyn_ws/src/CMakeLists.txt"
   "/home/ly/visual_compass/DataSyn_ws/src/dataSynAcq/CMakeLists.txt"
   "/home/ly/visual_compass/DataSyn_ws/src/dataSynAcq/package.xml"
+  "/home/ly/visual_compass/DataSyn_ws/src/koreaextract/CMakeLists.txt"
+  "/home/ly/visual_compass/DataSyn_ws/src/koreaextract/package.xml"
+  "/home/ly/visual_compass/DataSyn_ws/src/synrgbwir/CMakeLists.txt"
+  "/home/ly/visual_compass/DataSyn_ws/src/synrgbwir/package.xml"
   "/opt/ros/indigo/share/catkin/cmake/../package.xml"
   "/opt/ros/indigo/share/catkin/cmake/all.cmake"
   "/opt/ros/indigo/share/catkin/cmake/assert.cmake"
@@ -172,6 +180,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dataSynAcq/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "koreaextract/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "synrgbwir/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -200,4 +210,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "dataSynAcq/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "dataSynAcq/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "dataSynAcq/CMakeFiles/datasynacq_node.dir/DependInfo.cmake"
+  "koreaextract/CMakeFiles/koreaextract_node.dir/DependInfo.cmake"
+  "koreaextract/CMakeFiles/koreaextract.dir/DependInfo.cmake"
+  "synrgbwir/CMakeFiles/synrgbwir_node.dir/DependInfo.cmake"
+  "synrgbwir/CMakeFiles/synrgbwir.dir/DependInfo.cmake"
   )

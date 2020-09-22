@@ -59,7 +59,7 @@ void dataSynAcq::CallBack(const sensor_msgs::ImageConstPtr& image, const sensor_
     //ofstream image_stamp( (image_dir_ + "image_stamp.txt" ).c_str(), ios::app );
     if( !image_stamp )
     {
-        image_stamp.open( (imu_dir_ + "image_stamp.csv").c_str(), ios::out );
+        image_stamp.open( (imu_dir_ + "image_stamp.txt").c_str(), ios::out );
     }
     image_stamp << image->header.stamp << "\n";
     //image_stamp.close();
